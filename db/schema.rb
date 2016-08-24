@@ -22,16 +22,19 @@ ActiveRecord::Schema.define(version: 20160823193335) do
   end
 
   create_table "restaurants", force: :cascade do |t|
-    t.string   "name"
-    t.string   "address"
+    t.string   "restaurant_name"
+    t.string   "restaurant_address"
     t.string   "zip_code"
-    t.string   "delivery_radius"
-    t.string   "phone_number"
+    t.string   "radius_id"
+    t.string   "public_phone_number"
+    t.string   "owner_name"
+    t.string   "owner_address"
+    t.string   "private_phone_number"
     t.string   "email_address"
-    t.string   "description"
-    t.string   "cuisine"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.string   "restaurant_description"
+    t.string   "cuisine_id"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
     t.integer  "user_id"
     t.index ["user_id"], name: "index_restaurants_on_user_id", using: :btree
   end
