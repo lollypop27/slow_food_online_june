@@ -3500,7 +3500,8 @@ table.hover tr:nth-of-type(even):hover {
   float: left !important; }
 
 .float-right {
-  float: right !important; }
+  float: right !important;
+  margin-top: 10px;}
 
 .float-center {
   display: block;
