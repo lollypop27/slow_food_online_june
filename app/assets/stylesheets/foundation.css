@@ -252,6 +252,21 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0.5rem 1rem 0;
+  font-size: 0.9rem;
+  background-color: #FFBF00;
+  color: #000; }
+
   cursor: pointer;
   /* 3 */ }
 
@@ -1274,7 +1289,7 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #FFBF00;
+  color: #F7C600;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
@@ -4222,3 +4237,9 @@ table.hover tr:nth-of-type(even):hover {
   .alert-box .close {
     font-size: 2rem;
     line-height: 1.25rem; }
+.field {
+  padding: 0;
+  }
+label {
+  margin-bottom: -10px;
+  }
