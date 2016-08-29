@@ -120,7 +120,9 @@ dfn {
    * contexts in Firefox 4+, Safari, and Chrome.
    */
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:
   margin: 0.67em 0; }
 
 /**
@@ -381,7 +383,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fff;
+  background: #F78D02;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1256,11 +1258,14 @@ h6 {
 
 @media screen and (min-width: 40em) {
   h1 {
-    font-size: 3rem; }
+    font-size: 2.5rem;
+    font-weight: bold;}
   h2 {
-    font-size: 2.5rem; }
+    font-size: 2rem;
+    font-weight: bold;
+    color: #002F80;}
   h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.7rem; }
   h4 {
     font-size: 1.5625rem; }
   h5 {
@@ -1487,7 +1492,7 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #000;
+    background-color: #002F80;
     color: #000; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1497,20 +1502,20 @@ kbd {
     font-size: 1.25rem; }
   .button.expanded {
     display: block;
-    width: 100%;
+    width: 20%;
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
     background-color: #2199e8;
     color: #000; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
+      background-color: #002F80;
       color: #000; }
   .button.secondary {
     background-color: #777;
     color: #000; }
     .button.secondary:hover, .button.secondary:focus {
-      background-color: #5f5f5f;
+      background-color: #002F80;
       color: #000; }
   .button.success {
     background-color: #3adb76;
@@ -1611,7 +1616,7 @@ textarea {
   [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
   textarea:focus {
     border: 1px solid #8a8a8a;
-    background-color: #000;
+    background-color: #fff;
     outline: none;
     box-shadow: 0 0 5px #cacaca;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
@@ -1766,7 +1771,7 @@ select {
   font-family: inherit;
   line-height: normal;
   color: #0a0a0a;
-  background-color: #000;
+  background-color: #fff;
   border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
