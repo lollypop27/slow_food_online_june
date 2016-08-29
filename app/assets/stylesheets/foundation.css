@@ -122,8 +122,9 @@ dfn {
 h1 {
   font-size: 1.5em;
   font-weight: bold;
-  color:
-  margin: 0.67em 0; }
+  color: 054496;
+  margin: 0.67em;
+}
 
 /**
    * Address styling not present in IE 8/9.
@@ -267,8 +268,8 @@ input[type="submit"] {
   background-color: #FFBF00;
   color: #000; }
 
-  cursor: pointer;
-  /* 3 */ }
+  /*cursor: pointer,
+  /* 3 }*/
 
 /**
    * Re-set default cursor for disabled elements.
