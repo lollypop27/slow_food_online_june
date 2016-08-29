@@ -31,10 +31,13 @@
 
   .medium-8.columns
     %h2 What do you feel like tonight?
-    %ul
-      %li Asian
-      %li Italian
-      %li Greek
+    %div
+      %form{action: ""}
+        %select
+          %option{:value => ""} Select your option
+          %option{:value => "Italian"} Italian
+          %option{:value => "Greek"} Greek
+          %option{:value => "Sushi"} Sushi
     %div#location_form
       %form{action: ""}
         Where are you:
