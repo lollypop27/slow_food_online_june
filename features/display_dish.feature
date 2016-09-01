@@ -55,4 +55,3 @@ Feature: As a System user
     And I should see "Ingredients: Tomato, Cheese, Shrimps, Mussels"
     And I should see "Allergy info: Gluten, Lactose"
     And I should see "Delicious pizza with fruits of the sea!"
-
