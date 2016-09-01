@@ -4215,7 +4215,7 @@ table.hover tr:nth-of-type(even):hover {
   border: none;
   border-left: 6px solid #008CBA;
   box-shadow: 0 5px 8px -6px rgba(0, 0, 0, 0.2);
-  padding:10px 0;}
+  padding:10px 0 0 5px;}
   .alert-box.success {
     background: #f7f7f7;
     color: #333; }
