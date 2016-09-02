@@ -14,7 +14,9 @@ gem 'devise'
 gem 'geocoder'
 gem 'colored' #colors in terminal Used in seeds.rb
 gem 'faker'
+gem 'carrierwave'
 gem 'acts_as_shopping_cart'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem 'pry'
