@@ -34,7 +34,7 @@ class RestaurantsController < ApplicationController
   def show
     @restaurant = Restaurant.find(params[:id])
     @menu = @restaurant.menus.find_by(id: params[:id])
-    # @dish = @menu.dishes.find_by(id: params[:id])
+    @dish = @menu.dishes.find_by(id: params[:id])
   end
 
   private

@@ -20,10 +20,8 @@
       List of restaurants
     %h5
     - @restaurant.each do |restaurant|
-      %p= @restaurant.name
-      %p= link_to 'View', restaurant_path(@restaurant)
-    -# = @restaurant.each do |resturant|
-    -# = @restaurant.name
+      %p= restaurant.name
+      %p= link_to 'View', restaurant_path(restaurant.id)
 
   .medium-8.columns
     %h2 What do you feel like tonight?

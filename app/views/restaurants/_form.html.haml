@@ -13,7 +13,7 @@
     = f.text_field :city
   .field
     = f.label :delivery_radius
-    = f.select(:delivery_radius, options_for_select([['5km', 1], ['10km', 2],['20km', 3],['30km', 4]]), include_blank: 'Select radius')
+    = f.select(:delivery_radius, options_for_select([['5km', '5km'], ['10km', '10km'],['20km', '20km'],['30km', '30km']]), include_blank: 'Select radius')
   .field
     = f.label :phone_number
     = f.text_field :phone_number
@@ -25,6 +25,6 @@
     = f.text_area :description
   .field
     = f.label :cuisine, 'Select your cuisine'
-    = f.select(:cuisine, options_for_select([['Italian', 1],['Greek', 2],['Chinese', 3],['Sushi', 4]]), include_blank: 'Select cuisine')
+    = f.select(:cuisine, options_for_select([['Italian', 'Italian'],['Greek', 'Greek'],['Chinese', 'Chinese'],['Sushi', 'Sushi']]), include_blank: 'Select cuisine')
   .actions#submit.button.expanded
     = f.submit 'Save'

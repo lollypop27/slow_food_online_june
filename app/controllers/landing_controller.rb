@@ -1,6 +1,6 @@
 class LandingController < ApplicationController
   def index
-    @restaurant = Restaurant.all
+    @restaurant = Restaurant.all.limit(5)
   end
 
   def show
