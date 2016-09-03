@@ -18,16 +18,12 @@
   .medium-4.columns
     %h2
       List of restaurants
-      .row.small-up-4
-      .column
-        %img.thumbnail{src: "http://placehold.it/250x150"}
-        %h5 Asian Restaurant Name
-      .column
-        %img.thumbnail{src: "http://placehold.it/250x150"}
-        %h5 Italian Restaurant Name
-      .column
-        %img.thumbnail{src: "http://placehold.it/250x150"}
-        %h5 Restaurant Name
+    %h5
+    - @restaurant.each do |restaurant|
+      %p= @restaurant.name
+      %p= link_to 'View', restaurant_path(@restaurant)
+    -# = @restaurant.each do |resturant|
+    -# = @restaurant.name
 
   .medium-8.columns
     %h2 What do you feel like tonight?

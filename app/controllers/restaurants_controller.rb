@@ -1,5 +1,5 @@
 class RestaurantsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :show]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
 
   def new
     @restaurant = Restaurant.new
